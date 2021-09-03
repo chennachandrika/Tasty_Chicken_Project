@@ -14,7 +14,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin: 10px;
+  margin-top: 0;
 }
 .page-left-icon {
   border: 1px solid #334155;
@@ -61,14 +62,14 @@
   margin-left: 10px;
 }
 .restaurant-name {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 15px;
   font-weight: 500;
   margin-top: 3px;
   color: #334155;
 }
 .restaurant-food-type {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: 300;
   color: #64748b;

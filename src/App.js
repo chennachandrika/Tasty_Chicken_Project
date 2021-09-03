@@ -1,14 +1,14 @@
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import LoginForm from './components/LoginForm'
-import Home from './components/Home'
+import LoginForm from "./components/LoginForm";
+import Home from "./components/Home";
 
-import Cart from './components/Cart'
-import NotFoundRoute from './components/NotFoundRoute'
-import ProtectedRoute from './components/ProtectedRoute'
-import RestaurantDetails from './components/RestaurantDetails'
+import Cart from "./components/Cart";
+import NotFoundRoute from "./components/NotFoundRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
+import RestaurantDetails from "./components/RestaurantDetails";
 
-import './App.css'
+import "./App.css";
 
 const App = () => (
   <BrowserRouter>
@@ -24,6 +24,6 @@ const App = () => (
       <Route component={NotFoundRoute} />
     </Switch>
   </BrowserRouter>
-)
+);
 
-export default App
+export default App;

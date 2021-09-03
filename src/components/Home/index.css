@@ -4,6 +4,9 @@
   justify-content: center;
   align-items: center;
 }
+.home-page-content-container {
+  margin-top: 100px;
+}
 
 .carousel-img {
   width: 100%;
